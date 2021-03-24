@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import Login from './Login'
+
 const Page = styled.div`
     margin: 4rem 0 0;
 `
@@ -20,6 +22,7 @@ const Home = () => {
         <Page>
             <Title>I'll Be There For You</Title>
             <Disclaimer>as long as you sign in first</Disclaimer>
+            <Login/>
         </Page>
     )
 }
